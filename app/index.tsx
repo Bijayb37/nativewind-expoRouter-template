@@ -6,7 +6,7 @@ export default function App() {
       <View>
         <Text className="text-lg">Hello World</Text>
       </View>
-      <Text className="text-lg text-red-500">Universal React with Expo</Text>
+      <Text className="text-lg text-red-400">Universal React with Expo</Text>
     </View>
   )
 }
