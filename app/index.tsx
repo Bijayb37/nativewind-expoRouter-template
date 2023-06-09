@@ -11,13 +11,7 @@ export default function App() {
         </View>
         <Text className="text-lg text-red-500">Universal React with Expo</Text>
       </View>
-      <Link href="./secondpage">Go to secondpage</Link>
       <Stack.Screen options={{ title: "Overview" }} />
-      <View className="flex-1 items-center justify-center">
-        <Tabs>
-          <Tabs.Screen name="index" options={{ href: "./secondpage" }} />
-        </Tabs>
-      </View>
     </>
   )
 }
